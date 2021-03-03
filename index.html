@@ -40,12 +40,22 @@
 
 <body>
     <header>
-        <div class="container-fluid">
+        <div class="container-fluid headerOraculoMistico">
             <img src="img/app-icon.png" alt="oraculo">
             <h1>Oraculo Místico</h1>
         </div>
     </header>
-    <section></section>
+    <section>
+        <div class="container jugadores">
+            <label for="jugador1"><b>Jugador 01</b></label>
+            <input id="jugador1" class="form-control form-control" type="text" placeholder="nombre">
+            <label for="exampleFormControlFile1"><b>Jugador 02</b></label>
+            <input id="jugador2" class="form-control form-control" type="text" placeholder="nombre">
+        </div>
+        <div class="container boton">
+            <button class="btn bg-primary">Jugar</button>
+        </div>
+    </section>
     <footer></footer>
     <script src="js/script.js"></script>
 </body>

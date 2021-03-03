@@ -1,16 +1,24 @@
 body {
   margin: 0 auto;
 }
-header {
-}
-.container-fluid {
+.headerOraculoMistico {
   display: flex;
   align-items: center;
   justify-content: center;
   align-items: center;
   padding: 10px;
-  border-bottom:solid 1px grey;
+  border-bottom: solid 1px grey;
 }
 .container-fluid h1 {
   padding-left: 10vw;
+}
+.jugadores {
+  padding-top: 30px;
+}
+.jugadores input {
+  margin-bottom: 15px;
+}
+.boton {
+  display: flex;
+  justify-content: center;
 }
