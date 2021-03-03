@@ -1,0 +1,16 @@
+body {
+  margin: 0 auto;
+}
+header {
+}
+.container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-bottom:solid 1px grey;
+}
+.container-fluid h1 {
+  padding-left: 10vw;
+}
