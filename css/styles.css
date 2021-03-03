@@ -1,11 +1,14 @@
 body {
   margin: 0 auto;
 }
+.Ocultar {
+  display: none;
+}
+/* header */
 .headerOraculoMistico {
   display: flex;
   align-items: center;
   justify-content: center;
-  align-items: center;
   padding: 10px;
   border-bottom: solid 1px grey;
 }
@@ -15,10 +18,24 @@ body {
 .jugadores {
   padding-top: 30px;
 }
+/* jugadores */
 .jugadores input {
   margin-bottom: 15px;
 }
 .boton {
   display: flex;
   justify-content: center;
+}
+/* Esperando */
+.espera {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #e5eef2;
+}
+.espera img {
+  height: 40vh;
 }

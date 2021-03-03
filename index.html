@@ -39,13 +39,15 @@
 </head>
 
 <body>
-    <header>
+    <!-- Nombre del juego -->
+    <header class="Ocultar">
         <div class="container-fluid headerOraculoMistico">
             <img src="img/app-icon.png" alt="oraculo">
             <h1>Oraculo Místico</h1>
         </div>
     </header>
-    <section>
+    <!-- Jugadores -->
+    <section class="Ocultar">
         <div class="container jugadores">
             <label for="jugador1"><b>Jugador 01</b></label>
             <input id="jugador1" class="form-control form-control" type="text" placeholder="nombre">
@@ -54,6 +56,13 @@
         </div>
         <div class="container boton">
             <button class="btn bg-primary">Jugar</button>
+        </div>
+    </section>
+    <!-- Esperando -->
+    <section>
+        <div class="espera">
+            <h1>¡Repartiendo cartas!</h1>
+            <img src="https://media.giphy.com/media/xTk9ZvMnbIiIew7IpW/source.gif" alt="">
         </div>
     </section>
     <footer></footer>
