@@ -39,3 +39,32 @@ body {
 .espera img {
   height: 40vh;
 }
+/* carta */
+.cartas {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 10vw;
+  width: 80vw;
+  border: 1px solid #000;
+}
+.cartas img {
+  width: 100%;
+}
+.cartas h3 {
+  padding-top: 10px;
+}
+.cartas p {
+  padding: 0px 10px 0px 10px;
+}
+
+/* Cerrar carta */
+.cerrar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content:flex-end;
+  top: 5px;
+  right: 5px;
+}
