@@ -39,6 +39,23 @@ body {
 .espera img {
   height: 40vh;
 }
+.carruselDeCartas{
+  background-color: rgb(42, 42, 42);
+}
+/* Cerrar carta */
+.cerrar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  top: 5px;
+  right: 5px;
+}
+.jugador1{
+  text-align: center;
+  color: rgb(225, 225, 225);;
+  padding-top: 10px;
+}
 /* carta */
 .cartas {
   display: flex;
@@ -48,6 +65,7 @@ body {
   margin: 10vw;
   width: 80vw;
   border: 1px solid #000;
+  background-color: rgb(225, 225, 225);
 }
 .cartas img {
   width: 100%;
@@ -58,13 +76,7 @@ body {
 .cartas p {
   padding: 0px 10px 0px 10px;
 }
-
-/* Cerrar carta */
-.cerrar {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content:flex-end;
-  top: 5px;
-  right: 5px;
+/* slider */
+.carousel {
+  background-color: rgb(42, 42, 42);
 }
